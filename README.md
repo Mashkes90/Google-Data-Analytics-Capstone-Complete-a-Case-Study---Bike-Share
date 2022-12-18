@@ -9,3 +9,7 @@ You are a junior data analyst working in the marketing analyst team at Cyclistic
  
 # The Business Task
 The main goal is to identify how do annual members and casual riders use Cyclistic bikes differently.
+
+#Data
+The data that we will be using is Cyclistic’s historical trip data from last 12 months (October-2021 to September-2022). The data has been made available by Motivate International Inc. on this link under this license(https://ride.divvybikes.com/data-license-agreement).
+
