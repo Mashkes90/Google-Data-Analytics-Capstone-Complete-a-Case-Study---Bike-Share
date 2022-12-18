@@ -97,14 +97,6 @@ aggregate(all_bike_trip_2021_good_v3$ride_length ~ all_bike_trip_2021_good_v3$me
 #aggregate(all_bike_trip_2021_good_v3$ride_length ~ all_bike_trip_2021_good_v3$member_casual, FUN = max)
 #aggregate(all_bike_trip_2021_good_v3$ride_length ~ all_bike_trip_2021_good_v3$member_casual, FUN = min)
 
-#Plot casual vs member
-p<-ggplot(data=all_bike_trip_2021_good_v3, aes(x=member_casual, y=ride_length)) +
-  geom_bar(stat="identity", width=1, color="white") +
-  coord_polar("y", start=0) +
-  
-  theme_void()
-p
-
 # Compare members and casual users for each day:
 aggregate(all_bike_trip_2021_good_v3$ride_length ~ all_bike_trip_2021_good_v3$member_casual + all_bike_trip_2021_good_v3$day_of_week, FUN = mean)
 #Since the days are not organized by the week order->re-organize
