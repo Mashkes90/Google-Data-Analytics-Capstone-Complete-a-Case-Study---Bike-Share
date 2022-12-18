@@ -7,5 +7,5 @@ You are a junior data analyst working in the marketing analyst team at Cyclistic
  
  b.Secondary stakeholders: Cyclistic marketing analytics team
  
-# Ask
-How do annual members and casual riders use Cyclistic bikes differently?
+# The Business Task
+The main goal is to identify how do annual members and casual riders use Cyclistic bikes differently.
